@@ -3,18 +3,25 @@
   top: 100px;
   left: 50%;
   transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  border: 3px solid gray;
+  padding: 30px;
+  
+
 }
 
 #questions {
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
-  bottom: 400px;
+  bottom: 350px;
+  box-sizing: border-box;
+  border: 3px solid gray;
+  padding: 40px;
 }
 
 .start-button-container {
   display: flex;
-
   justify-content: center space-evenly;
   text-size: 24px;
 }
@@ -30,6 +37,9 @@
   left: 50%;
   transform: translate(-50%, -50%);
   top: 550px;
+  box-sizing: border-box;
+  border: 3px solid gray;
+  padding: 30px;
 }
 
 .btn2{
@@ -55,3 +65,21 @@
   transform: translate(-50%, -50%);
   top: 630px;
 }
+
+.praise, .disgust {
+  box-sizing: border-box;
+  border: 3px solid gray;
+  padding: 30px;
+  position:relative;
+  top: 400px;
+  z-index:1;
+}
+
+.correct-img {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 325px;
+  z-index:-1;
+}
+
